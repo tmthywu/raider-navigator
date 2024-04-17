@@ -1,0 +1,14 @@
+Go straight towards officeh1.
+Turn right towards guidanceh.
+Go straight towards 1069h1.
+Turn right towards mainstairsh.
+Go straight towards pod2e1.
+Turn left towards 1043h1.
+Go straight towards 1044h.
+Go straight towards stairs5h.
+Go straight towards stairs5.
+Go up the stairs.
+Turn left towards stairs5toph.
+Turn left towards 2025h.
+Turn left towards 2025.
+You have arrived at your destination.

@@ -1,0 +1,11 @@
+Go straight towards 1042h.
+Turn right towards stairs5h.
+Turn right towards stairs5.
+Go up the stairs.
+Turn left towards stairs5toph.
+Turn left towards 2023h.
+Go straight towards 2024h1.
+Go straight towards pod5e1.
+Turn right towards libraryh.
+Turn left towards library.
+You have arrived at your destination.

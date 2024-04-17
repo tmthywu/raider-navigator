@@ -1,0 +1,9 @@
+Go straight towards cafh3.
+Turn right towards cafh2.
+Turn left towards stairs1.
+Go up the stairs.
+Turn left towards pod4e1.
+Turn left towards pod4e2.
+Go straight towards libraryh.
+Turn right towards library.
+You have arrived at your destination.

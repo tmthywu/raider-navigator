@@ -1,0 +1,209 @@
+
+stairs1 56 214 1 cafh2 pod1e1 stairs1top
+mainstairs 315 212 1 mainstairsh mainstairstop
+stairs2 430 167 1 stairs2h stairs2top
+stairs3 729 216 1 stairs3h stairs3top
+stairs4 150 74 1 stairs4h stairs4top
+stairs5 305 74 1 stairs5h stairs5top
+stairs6 689 74 1 stairs6h stairs6top
+
+
+pod1e1 99 185 1 stairs1 cafh2 1065h 1063h
+1065h 131 185 1 pod1e1 pod1e2 1065
+pod1e2 151 185 1 1065h 1059h2 1069h2
+1069h2 190 185 1 pod1e2 maintoentrance 1069
+maintoentrance 245 185 1 1069h2 1069h1 mainstairsh pod2e1
+mainstairsh 271 212 1 maintoentrance 1069h1 pod2e1 mainstairs
+pod2e1 301 185 1 mainstairsh maintoentrance 1043h1 pod2e2 smallgymh1
+pod2e2 355 185 1 pod2e1 1039h smallgymh1 stairs2h
+stairs2h 415 185 1 pod2e2 smallgymh2 1037h stairs2
+1037h 492 185 1 stairs2h fitnesshallway 1037
+fitnesshallway 528 185 1 1037h fitnessintersection largegymh1
+largegymh1 592 185 1 fitnesshallway pod3e1 largegym
+pod3e1 637 185 1 largegymh1 1036h pod3e2
+pod3e2 689 185 1 pod3e1 largegymh2 1032h2
+largegymh2 708 185 1 pod3e2 stairs3h largegym
+stairs3h 729 185 1 largegymh2 stairs3
+
+1065 131 204 1 1065h
+1070 113 266 1 1069
+1069 206 229 1 1069h1 1069h2 1070
+smallgym 400 261 1 smallgymh1 smallgymh2 smallgymh3
+1037 492 167 1 1037h
+largegym 650 270 1 largegymh1 largegymh2 largegymh3
+
+
+1069h1 245 229 1 maintoentrance mainstairsh guidanceh 1069
+guidanceh 245 261 1 1069h1 officeh1 guidance
+officeh1 245 295 1 guidanceh cafh1 office
+cafh1 245 317 1 officeh1 officeh2 cafeteria
+officeh2 245 336 1 cafh1 office
+
+guidance 267 261 1 guidanceh
+office 267 316 1 officeh1 officeh2
+cafh3 77 317 1 cafh2 cafeteria
+cafeteria 111 317 1 cafh3 cafh1
+
+
+fitnessintersection 528 280 1 fitnesshallway 1014h largegymh3
+smallgymh3 463 280 1 1014h 1013 smallgym
+largegymh3 575 280 1 fitnessintersection largegym
+1014h 510 280 1 smallgymh3 fitnessintersection 1014
+
+1014 510 298 1 1014h
+1013 445 298 1 smallgymh3
+
+
+cafh2 77 222 1 stairs1 pod1e1 cafh3
+
+
+smallgymh1 355 221 1 pod2e1 pod2e2 smallgymh2 smallgym
+smallgymh2 445 221 1 stairs2h smallgymh1 smallgym
+
+
+
+
+
+
+
+1063h 99 167 1 pod1e1 1059h1 1063
+1059h1 99 141 1 1063h 1062h 1059
+1062h 99 129 1 1059h1 1061h 1062
+1061h 99 100 1 1062h 1060h 1061
+1060h 131 100 1 1061h stairs4h 1060
+stairs4h 151 100 1 1060h stairs4 1055h
+1055h 151 127 1 stairs4h 1055 1059h2
+1059h2 151 141 1 1055h pod1e2 1059
+
+1063 85 167 1 1063h
+1062 85 129 1 1062h
+1061 85 86 1 1061h
+1060 131 86 1 1060h
+1059 125 141 1 1059h1 1059h2
+
+
+1055 180 127 1 1055h 1050
+1050 226 127 1 1055 1044
+1044 272 127 1 1050 1044h
+
+
+1043h1 301 141 1 1043 1044h pod2e1
+1044h 301 127 1 1044 1043h1 stairs5h
+stairs5h 301 99 1 1044h 1042h stairs5
+1042h 323 99 1 stairs5h 1041h 1042
+1041h 355 99 1 1042h 1040h 1041
+1040h 355 127 1 1041h 1043h2 1040
+1043h2 355 141 1 1043 1040h 1039h
+1039h 355 167 1 1039 1043h2 pod2e2
+
+1039 369 167 1 1039h
+1040 369 127 1 1040h
+1041 369 86 1 1041h
+1042 323 86 1 1042h
+1043 328 141 1 1043h1 1043h2
+
+
+1036h 637 167 1 pod3e1 1032h1 1036
+1032h1 637 141 1 1036h 1035h 1032
+1035h 637 125 1 1035 1032h1 1034h 1035
+1034h 637 100 1 1035h 1033h 1034
+1033h 668 100 1 1034h stairs6h 1033
+stairs6h 689 100 1 stairs6 1033h 1031h
+1031h 689 127 1 stairs6h 1032h2 1031
+1032h2 689 141 1 1031h pod3e2 1032
+
+1036 623 167 1 1036h
+1035 623 125 1 1035h
+1034 623 86 1 1034h
+1033 668 86 1 1033h
+1032 663 141 1 1032h1 1032h2
+1031 703 127 1 1031h
+
+
+
+stairs1top 56 214 2 pod4e1 2005h 2004h stairs1
+mainstairstop 315 212 2 mainstairstoph mainstairs
+stairs2top 430 167 2 stairs2toph stairs2
+stairs3top 729 216 2 stairs3toph stairs3
+stairs4top 150 74 2 stairs4toph stairs4
+stairs5top 305 74 2 stairs5toph stairs5
+stairs6top 689 74 2 stairs6toph stairs6
+
+
+
+pod4e1 99 185 2 stairs1top 2005h 2004h pod4e2 2006h
+2005h 80 200 2 stairs1top 2004h pod4e1 2005
+2004h 101 200 2 stairs1top 2005h pod4e1 2004 2002
+
+2005 80 217 2 2005h
+2004 101 217 2 2004h
+2002 120 200 2 2004h
+
+pod4e2 151 185 2 pod4e1 2010h2 libraryh
+libraryh 260 185 2 library pod4e2 pod5e1
+pod5e1 301 185 2 libraryh mainstairstoph 2024h1
+mainstairstoph 338 185 2 mainstairstop pod5e1 pod5e2
+pod5e2 355 185 2 mainstairstoph 2028h stairs2toph
+stairs2toph 415 185 2 stairs2top pod5e2 2029/2030h
+2029/2030h 518 185 2 stairs2toph 2029/2030 pod6e1
+pod6e1 637 185 2 2029/2030h 2034h pod6e2
+pod6e2 689 185 2 pod6e1 2038h2 stairs3toph
+stairs3toph 729 185 2 stairs3top pod6e2
+
+library 260 237 2 libraryh
+2029/2030 518 158 2 2029/2030h
+
+
+2006h 99 167 2 pod4e1 2010h1 2006
+2010h1 99 141 2 2006h 2007h 2010
+2007h 99 129 2 2010h1 2008h 2007
+2008h 99 100 2 2007h 2009h 2008
+2009h 131 100 2 2008h stairs4toph 2009
+stairs4toph 151 100 2 2009h stairs4top 2011h
+2011h 151 127 2 stairs4toph 2011 2010h2
+2010h2 151 141 2 2011h pod4e2 2010
+
+2006 85 167 2 2006h
+2007 85 129 2 2007h
+2008 85 86 2 2008h
+2009 131 86 2 2009h
+2010 125 141 2 2010h1 2010h2
+
+
+2011 180 127 2 2011h 2018
+2018 226 127 2 2011 2023
+2023 272 127 2 2018 2023h
+
+
+2024h1 301 141 2 2024 2023h pod5e1
+2023h 301 127 2 2023 2024h1 stairs5toph
+stairs5toph 301 99 2 2023h 2025h stairs5top
+2025h 323 99 2 stairs5toph 2026h 2025
+2026h 355 99 2 2025h 2027h 2026
+2027h 355 127 2 2026h 2024h2 2027
+2024h2 355 141 2 2024 2027h 2028h
+2028h 355 167 2 2028 2024h2 pod5e2
+
+2028 369 167 2 2028h
+2027 369 127 2 2027h
+2026 369 86 2 2026h
+2025 323 86 2 2025h
+2024 328 141 2 2024h1 2024h2
+
+
+2034h 637 167 2 pod6e1 2038h1 2034
+2038h1 637 141 2 2034h 2035h 2038
+2035h 637 125 2 2038h1 2036h 2035
+2036h 637 100 2 2035h 2037h 2036
+2037h 668 100 2 2036h stairs6toph 2037
+stairs6toph 689 100 2 stairs6top 2037h 2044h
+2044h 689 127 2 stairs6toph 2038h2 2044
+2038h2 689 141 2 2044h pod6e2 2038
+
+2034 623 167 2 2034h
+2035 623 125 2 2035h
+2036 623 86 2 2036h
+2037 668 86 2 2037h
+2038 663 141 2 2038h1 2038h2
+2044 703 127 2 2044h
+
