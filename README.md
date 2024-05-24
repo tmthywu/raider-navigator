@@ -1,5 +1,5 @@
 # raider-navigator
-My ICS3U6 final project.
+An interactive kiosk to help the user navigate Richmond Hill High School’s building. Graphically displays the shortest route from any Room A to Room B in the school. This was my ICS3U6 final project.
 
 **Instructions:**
 1. Type a starting room and a destination room in the text fields. The room must be a room shown on the map in the main display, capitalization / whitespace does not matter. 
